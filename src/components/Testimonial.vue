@@ -13,10 +13,10 @@
     </v-layout>
     <v-card-title primary-title style="padding-top:0px;">
       <v-layout justify-center>
-        <div
-          class="headline"
+        <p
+          class="headline text-justify"
           style="text-align:center;"
-        >-{{text}}</div>
+        >-{{text}}</p>
       </v-layout>
     </v-card-title>
     <v-card-actions>
@@ -37,4 +37,7 @@ export default {
 </script>
 
 <style>
+p {
+  word-break: normal;
+}
 </style>
