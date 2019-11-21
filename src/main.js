@@ -5,6 +5,7 @@ import router from './router'
 import store from './store'
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/dist/vuetify.min.css'
+import 'animate.css';
 
 Vue.config.productionTip = false
 

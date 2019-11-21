@@ -6,11 +6,11 @@
       v-if="$vuetify.breakpoint.mdAndUp"
     >
       <v-container>
-        <v-layout fill-height row wrap justify-space-around>
-          <v-flex xs12 md6 align-self-center>
+        <v-row fill-height wrap justify-space-around>
+          <v-col xs12 md6 align-self-center>
             <h6 class="display-3 text-sm-center">Rocket League</h6>
-          </v-flex>
-        </v-layout>
+          </v-col>
+        </v-row>
       </v-container>
     </v-parallax>
     <!-- <PlayerCard></PlayerCard> -->
@@ -18,10 +18,10 @@
 </template>
 
 <script>
-import PlayerCard from '../components/PlayerCard'
+// import PlayerCard from '../components/PlayerCard'
 export default {
     components: {
-        PlayerCard
+        // PlayerCard
     }
 }
 </script>
