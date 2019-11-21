@@ -21,6 +21,7 @@
             <p
               class="subheading text-lg-right text-sm-center"
               style="margin-bottom:-5px;"
+<<<<<<< HEAD
             >
               Welcome to the official unofficial website for the
             </p>
@@ -30,11 +31,21 @@
             </h6>
           </v-col>
         </v-row>
+=======
+            >Welcome to the official unofficial website for the</p>
+            <h6 class="display-3 text-lg-right text-sm-center">
+              Temple University
+              <br v-if="$vuetify.breakpoint.xsOnly" />Esports Club
+            </h6>
+          </v-flex>
+        </v-layout>
+>>>>>>> 8da825a8a0167c3cc8c589cf11f69837e961b1c9
       </v-container>
     </v-parallax>
     <v-divider></v-divider>
     <br />
     <br />
+<<<<<<< HEAD
     <h2 class="display-3 font-weight-light text-sm-center font-italic">
       Testimonials
     </h2>
@@ -49,6 +60,16 @@
         />
       </v-col>
     </v-row>
+=======
+    <h2 class="display-3 font-weight-light text-truncate text-sm-center font-italic">Testimonials</h2>
+    <br />
+    <br />
+    <v-layout row fill-height justify-space-around>
+      <v-flex xs11 md3 :key="item.name" pb-5 v-for="item in testimonials">
+        <Testimonial :name="item.name" :rating="item.rating" :text="item.text" />
+      </v-flex>
+    </v-layout>
+>>>>>>> 8da825a8a0167c3cc8c589cf11f69837e961b1c9
     <br />
     <br />
     <br />
@@ -56,10 +77,17 @@
       class="hidden-sm-and-down"
       :min-width="windowSize.y"
       color="blue-grey lighten-1"
+<<<<<<< HEAD
       :min-height="windowSize.y / 2"
     >
       <v-layout column fill-height justify-center>
         <v-flex xs4> </v-flex>
+=======
+      :min-height="windowSize.y/2"
+    >
+      <v-layout column fill-height justify-center>
+        <v-flex xs4></v-flex>
+>>>>>>> 8da825a8a0167c3cc8c589cf11f69837e961b1c9
         <v-flex xs4 style="padding-top:150px;">
           <a href="https://discord.gg/tuesports">
             <h2 class="display-3 font-weight-bold text-sm-center white--text">
@@ -70,11 +98,19 @@
             class="subheading text-sm-center white--text font-weight-light"
             style="margin-bottom:-5px;"
           >
+<<<<<<< HEAD
             There would be a widget here but a <i>certain someone</i> changed
             all the discord permissions.
           </p>
         </v-flex>
         <v-flex xs4> </v-flex>
+=======
+            There would be a widget here but a
+            <i>certain someone</i> changed all the discord permissions.
+          </p>
+        </v-flex>
+        <v-flex xs4></v-flex>
+>>>>>>> 8da825a8a0167c3cc8c589cf11f69837e961b1c9
       </v-layout>
     </v-sheet>
     <div style="padding-bottom: 100px;"></div>
@@ -124,4 +160,9 @@ export default {
   }
 };
 </script>
+<<<<<<< HEAD
 <style></style>
+=======
+<style>
+</style>
+>>>>>>> 8da825a8a0167c3cc8c589cf11f69837e961b1c9

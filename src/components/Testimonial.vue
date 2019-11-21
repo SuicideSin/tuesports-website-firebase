@@ -10,9 +10,20 @@
         half-increments
         large
       ></v-rating>
+<<<<<<< HEAD
     </div>
     <v-card-title style="padding-top:0px;">
       <p class="display-1" style="text-align:center;">-{{ text }}</p>
+=======
+    </v-layout>
+    <v-card-title primary-title style="padding-top:0px;">
+      <v-layout justify-center>
+        <p
+          class="headline text-justify"
+          style="text-align:center;"
+        >-{{text}}</p>
+      </v-layout>
+>>>>>>> 8da825a8a0167c3cc8c589cf11f69837e961b1c9
     </v-card-title>
 
     <v-card-text> </v-card-text>
@@ -34,4 +45,12 @@ export default {
 };
 </script>
 
+<<<<<<< HEAD
 <style></style>
+=======
+<style>
+p {
+  word-break: normal;
+}
+</style>
+>>>>>>> 8da825a8a0167c3cc8c589cf11f69837e961b1c9
