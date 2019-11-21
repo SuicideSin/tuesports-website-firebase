@@ -23,7 +23,7 @@
         <v-col> <p class="display-2 text-center">PR Team</p></v-col>
       </v-row>
       <v-row align-content="center">
-        <v-col sm="3" v-for="(item, index) in pr" :key="index"
+        <v-col xs="12" md="4" v-for="(item, index) in pr" :key="index"
           ><ImageChip :item="item"
         /></v-col>
       </v-row>
@@ -45,12 +45,12 @@ export default {
           title: "Malvin",
           subtitle: "Ausii",
           desc: "President of the Esports Club. Plays a lot of OSU.",
-          img: "./head.png"
+          img: "./DSC_0426.jpg"
         },
         {
           title: "Sweta",
           subtitle: "CHOCOLATE",
-          desc: "Vice President and Evemts Coordinator. Fun gal.",
+          desc: "Vice President and Events Coordinator. Fun gal. Crazy, but fun.",
           img: "./sweta.jpg"
         },
         {
@@ -64,14 +64,14 @@ export default {
         {
           title: "Ryan",
           subtitle: "Avro",
-          desc: "Officer. Talks in chat sometimes.",
-          img: "./head.png"
+          desc: "Officer. Talks in chat sometimes. Crippling addiction to Magic.",
+          img: "./avro.png"
         },
         {
           title: "Brett",
           subtitle: "Zenlos",
-          desc: "Officer. Pretty good at Rocket League.",
-          img: "./head.png"
+          desc: "Officer. Pretty good at Rocket League. Vape Nash y'all.",
+          img: "./zen.jpg"
         },
         {
           title: "Ewing",
@@ -110,14 +110,14 @@ export default {
         {
           title: "Steve",
           subtitle: "sir1650",
-          desc: "President of the Ambler Esports Club.",
-          img: "./head.png"
+          desc: "President of the Ambler Esports Club. Has great hair.",
+          img: "./steve.jpg"
         },
         {
           title: "Mel",
           subtitle: "crispy",
           desc: "Graphic Designer. Makes buttons.",
-          img: "./head.png"
+          img: "./mel.jpg"
         },
         {
           title: "Nadya",
@@ -130,6 +130,12 @@ export default {
           subtitle: "GeTroLLeDBro",
           desc: "Video Editor. Memer.",
           img: "./head.png"
+        },
+        {
+          title: "Crys",
+          subtitle: "3ambro",
+          desc: "Proofreader. Doesn't read proofs.",
+          img: "./crys.jpeg"
         }
       ]
     };
