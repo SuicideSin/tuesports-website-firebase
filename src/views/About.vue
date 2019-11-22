@@ -50,7 +50,7 @@ export default {
         {
           title: "Sweta",
           subtitle: "CHOCOLATE",
-          desc: "Vice President and Events Coordinator. Fun gal. Crazy, but fun.",
+          desc: "Vice President and Events Coordinator. Egirl mascot. Crazy, but fun.",
           img: "./sweta.jpg"
         },
         {
@@ -104,8 +104,8 @@ export default {
           title: "Abby",
           subtitle: "kiseki_ace",
           desc:
-            "Social Media Manager. Leader of Merchandise. Professional Cosplayer.",
-          img: "./head.png"
+            "Social Media Manager. Leader of Merchandise. Resident Cosplayer.",
+          img: "./abby.jpg"
         },
         {
           title: "Steve",
@@ -123,13 +123,13 @@ export default {
           title: "Nadya",
           subtitle: "needle",
           desc: "Events Coordinator. Friendliest person in the Discord.",
-          img: "./head.png"
+          img: "./nadya.jpg"
         },
         {
           title: "Antony",
           subtitle: "GeTroLLeDBro",
           desc: "Video Editor. Memer.",
-          img: "./head.png"
+          img: "./memer.jpg"
         },
         {
           title: "Crys",

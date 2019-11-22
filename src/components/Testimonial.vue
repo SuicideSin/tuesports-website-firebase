@@ -34,4 +34,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+p {
+  word-break: normal !important;
+}
+</style>
