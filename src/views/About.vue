@@ -84,27 +84,27 @@ export default {
         {
           title: "Thomas",
           subtitle: "Stones24",
-          desc: "Web developer. God of this website.",
+          desc: "Web developer. Photographer. God of this website.",
           img:
             "https://scontent.fewr1-6.fna.fbcdn.net/v/t1.0-9/42702448_2247040531990836_5883124306593972224_n.jpg?_nc_cat=103&_nc_ohc=JqH_YXMNqxQAQnNG2iSsPIen8brXIrfrwQo3_i-7Cp0Cyr6TJuIJ4MAHQ&_nc_ht=scontent.fewr1-6.fna&oh=35d8e1025a72ceaa023261a202ffbdae&oe=5E4CBF8C"
         },
         {
           title: "Demi",
           subtitle: "gunstrings",
-          desc: "Graphic Designer. Smol bunny.",
+          desc: "Content Manager. Graphic Designer. Smol bunny.",
           img: "./demi.jpg"
         },
         {
           title: "Jake",
           subtitle: "MLGjakeg",
-          desc: "Photographer. Takes pictures.",
+          desc: "Photographer. Takes pictures. Doesn't graph photos.",
           img: "./head.png"
         },
         {
           title: "Abby",
           subtitle: "kiseki_ace",
           desc:
-            "Social Media Manager and leader of Merchandise. Professional Cosplayer.",
+            "Social Media Manager. Leader of Merchandise. Professional Cosplayer.",
           img: "./head.png"
         },
         {
@@ -122,7 +122,7 @@ export default {
         {
           title: "Nadya",
           subtitle: "needle",
-          desc: "Events coordinator. Friendliest person in the Discord.",
+          desc: "Events Coordinator. Friendliest person in the Discord.",
           img: "./head.png"
         },
         {

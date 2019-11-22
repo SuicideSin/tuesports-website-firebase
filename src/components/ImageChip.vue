@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-list-item class="elevation-2 white" three-line>
+    <v-list-item :class="elevation + ' ' + color" three-line>
       <v-list-item-avatar>
         <v-img :src="item.img"></v-img>
       </v-list-item-avatar>
@@ -24,7 +24,15 @@ export default {
         subtitle: "",
         desc: ""
       })
-    }
+    },
+    color: {
+      type: String,
+      default: "white"
+    },
+    elevation: {
+      type: String,
+      default: "elevation-1"
+    },
   }
 };
 </script>
